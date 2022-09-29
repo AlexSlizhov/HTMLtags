@@ -1,12 +1,13 @@
-.text-center{
+h1{
+    color: blue;
     text-align: center;
 }
-.text-bold{
-    font-weight: bold;
-    color: red;
-    text-align: center;
+#first {
+    color: chartreuse;
+    font-family:"Arial";
 }
-img {
-    width: 500px;
-    height: 100%;
+.border{
+    border: 1px solid blue;
+    height: 40px;
+    width: 300px;
 }

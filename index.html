@@ -6,10 +6,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lesson</title>
+    <style type="text/css">
+        body {
+            background-color: beige;
+        }
+    </style>
 </head>
 <body>
     <p>Добрый день меня зовут Александр и это моя прервая страница в
         <abbr title="Hypertext Markup Language">HTML</abbr>, надеюсь не последняя &#128514</p>
+    <p> А терерь переходим к <a href="#Exmaple">примеру.</a></p>
     <p> В плане у меня изучния следующих программ:</p>
         <ol>
         <li><a href="https://ru.wikipedia.org/wiki/HTML">
@@ -33,11 +39,52 @@
     <form>
         <fieldset>
             <legend>Вход на сайт</legend>
-            <p>Логин <input name="login"></p>
+            <p>Логин  <input name="login"></p>
             <p>Пароль <input type="password" name="pass"></p>
          <p><input type="submit" value="Вход"></p>
         </fieldset>
+    </form><br>
+    <form>
+        <input name="a"> <input type="submit">
     </form>
-
+    <p> что за фигня!</p>
+    <p align="center"><a name="Examle"></a>Example</p>
+    <p id="Exmaple">Example</p>
+    <table border="1">
+        <caption>Таблица роста зарплат</caption>
+        <tr>
+            <th>2020</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>Средняя</th>
+        </tr>
+        <tr><td>500</td><td>743</td><td>620</td><td>621,00</td></tr>
+        <tr><td>842</td><td>796</td><td>824</td><td>820,66</td></tr>
+    </table>
+    <br/>
+    <table border="1" cellpadding="7" cellspacing="0">
+        <tr>
+            <td colspan="3" bgcolor="red" align="center">Наименования</td>
+        </tr>
+        <tr>
+            <td valign="top" align="center"> Обозначение</td>
+            <td width="50%" valign="top" align="center" bgcolor="yellowe">2500$</td>
+        </tr>
+    </table><br/>
+    <div style="position: absolute; left:400px; top:250px; font-family: Verdana; font-size: 10pt;
+        border-style: groove; border-width: 30px; border-color: red; padding: 5px">
+        Вот мы тут всего натворили!!!
+    </div>
+    <p>Упс, а вот и песенка</p>
+    <audio controls="controls">
+    <source src="D:\Музыка\kazka.mp3" type="audio/mpeg"/>
+    </audio>
+    <br/>
+    <select>
+        <option>Пункт 1</option>
+        <option>Пункт 2</option>
+        <option>Пункт 3</option>
+    </select>
+    <p> Вот, новый поворот</p>
 </body>
 </html>
